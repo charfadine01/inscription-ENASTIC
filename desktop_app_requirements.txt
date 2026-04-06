@@ -1,0 +1,22 @@
+# Dépendances pour l'application desktop ENASTIC
+# Installation: pip install -r desktop_app_requirements.txt
+
+# Interface graphique
+PyQt6==6.6.1
+PyQt6-Qt6==6.6.1
+PyQt6-sip==13.6.0
+
+# Base de données et sécurité
+bcrypt==4.1.2
+
+# Génération de documents (déjà dans requirements.txt principal)
+# Réutilise les modules existants: certificat_pdf.py, certificat_moderne.py, import_liste.py
+openpyxl>=3.1.0
+pandas>=2.0.0
+python-docx>=1.2.0
+reportlab>=4.0.0
+qrcode>=7.4.0
+Pillow>=10.0.0
+
+# Build et packaging
+pyinstaller>=6.0.0
